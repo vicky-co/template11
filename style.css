@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    overflow-x: hidden;
+    background: #066cec;
+    position: sticky;
+    top: 0px;
+    z-index: 10;    
+}
+
+.phnt{
+    border-right: solid 2px;
+    padding-right: 30px;
+}
+
+.nvlp{
+    padding-left: 30px;
+}
+
+.h_left{
+    float: left;
+    padding: 20px;
+    padding-left: 100px;
+    color: white;
+}
+
+.h_right{
+    float: right;
+    padding: 20px;
+    padding-right: 100px;
+    color: white;
+}
+
+
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+header i{
+    font-size: 20px;
+}
+.phn{
+    padding-left: 10px;
+
+}
+
+.twt,.fb,.gp,.inst{
+    padding-left: 30px;
+}
