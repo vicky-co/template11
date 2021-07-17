@@ -1,3 +1,6 @@
+
+
+
 body{
     width: 100%;
     margin: 0%;
@@ -9,8 +12,9 @@ header{
     overflow-x: hidden;
     background: #066cec;
     position: sticky;
-    top: 0px;
-    z-index: 10;    
+    top: 0%;
+    z-index: 10;
+       
 }
 
 .phnt{
@@ -56,3 +60,296 @@ header i{
 .twt,.fb,.gp,.inst{
     padding-left: 30px;
 }
+
+
+
+/* second section start from here */
+
+.sec{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-left: 50px;
+}
+
+
+#logo{
+    text-decoration: none;
+    display: inline ;
+    position: relative;
+    top: 34px;
+    left: -25px;
+    font-weight:bolder;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.lg{
+    float: left;
+}
+
+
+.seccen{
+    margin-top: 10px;
+    padding-bottom: 200px;
+    /* background-color: #066cec; */
+    display:inline-block;
+    padding-top: 20px;
+    float: none;
+    margin-left: 10%;
+    z-index: 120;
+}
+
+.seccen ul{
+    list-style: none;
+    margin: 0;    
+
+}
+.seccen > ul > li{
+    float: left;
+    position: relative;
+    z-index: 120;
+}
+
+.seccen ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 15px 20px;
+    font-size: 24px;
+    display: block;
+}
+
+.seccen ul li:hover a{
+    background:rgba(122, 122, 122, 0.877);    
+}
+
+.seccen ul li a:hover{
+    color: white;   
+}
+
+.seccen ul ul{
+    position: absolute;
+    padding: 0;
+    display: none;
+    min-width: 120px;
+}
+
+.seccen ul li:hover > ul {
+    display: inline-block;
+}
+
+
+.secrig{
+    float: right;
+    position: relative;
+    overflow: hidden;
+    padding-top: 2.5%;
+    padding-right: 7%;
+} 
+
+.secrig a i{
+    font-size: 24px;
+    color: black;
+    padding-right: 20px;
+}
+
+.secrig .number i{
+    font-size: 20px;
+}
+.number {
+    position: relative;
+    top: -14px;
+    left: -30px;
+    z-index: 12;
+}
+
+.secrig .count {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(248, 248, 248);
+}
+.count {
+    position: relative;
+    top: -15px;
+    left: -69px;
+    z-index: 13;
+}
+
+/* Image section of page start from here */
+
+.imge{
+    margin-top: -180px;
+    opacity: 70%;
+    
+}
+.imgcont{
+    position: relative;
+    top: -420px;
+    left: 45%;
+
+}
+.imgcont a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(121, 48, 48);
+    text-shadow: 0 0 40px #15e002, 0 0 40px #13e764;
+    opacity: 200%;
+    
+}
+.cnus{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.linke{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+/* map display area */
+
+.map{
+    margin-top: -77px;
+    margin-bottom:40px ;
+}
+
+/* ********************************contact details display************************************* */
+
+.contacti a{
+    text-decoration: none;
+}
+.contacti{
+    width: 100%;
+    padding-bottom: 880px;
+}
+
+.contactinf{
+    width: 40%;
+    text-align: center;
+    float: left;
+    margin-left: 7%;
+    /* display: inline-block; */
+}
+
+.conth {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.contc{
+    cursor:default;
+    color: rgb(160, 158, 158);
+    width: 70%;
+    font-size: 24px;
+}
+
+.condet{
+    display:inline-block;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.conbox1,.conbox2,.conbox3,.conbox4{
+
+    /* position: relative; */
+    float: left;
+    width: 45%;
+    height: calc(300px - 30px);
+    background:rgb(255, 255, 255) ;
+    margin: 2%;
+    box-sizing: border-box;
+    border: solid rgb(202, 200, 200) 3px;
+    /* z-index: 12; */
+    border-radius: 12px;
+
+}
+
+.condet i{
+    font-size: 32px;
+    padding: 10px;
+    color: white;
+    position: relative;
+    top: 30px;
+    border-radius: 400px;
+    background: #0469eb;
+}
+
+.condet h4{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+.condet a{
+    position:relative;
+    top: 40px;
+    font-size: 20px;
+    word-wrap: break-word;
+    text-align: center;
+    color: rgb(189, 187, 187);
+    text-decoration: none;
+}
+
+.Enquire{
+    text-align: center;
+    width: 40%;
+    float: right;
+    margin-right: 7%;
+    background: #fbfbfb;
+    padding-right:28px;
+}  
+.dv,.dvt,.dvto{
+    padding: 10px;
+}
+
+input{
+    border: solid rgb(199, 196, 196) 2px;
+    width: 100%;
+    height: 80px;
+}
+
+button,input,textarea::placeholder{
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+textarea{
+    width: 103%;
+    height: ;
+}
+button{
+    width: 100%;
+    margin-left: 12px;
+    background: #0469eb;
+    color: white;
+    border: solid rgb(199, 196, 196) 2px;
+    border-radius: 10px;
+    padding: 15px 0;
+}
+
+
+
+
+
+@media screen and (max-width:1500px) {
+    .imge{
+       margin-top: 10px;
+    }
+    .secrig{
+        margin-top: -120px;
+        padding-right: 40%;    
+    }
+
+    .seccen{
+        overflow-x: hidden ;
+        position:relative;
+        
+        
+    }
+ }
