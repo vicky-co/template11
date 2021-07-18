@@ -68,7 +68,7 @@ header i{
 .sec{
     width: 100%;
     position: relative;
-    overflow: hidden;
+    overflow: none;
     padding-left: 50px;
 }
 
@@ -97,14 +97,14 @@ header i{
     display:inline-block;
     padding-top: 20px;
     float: none;
-    margin-left: 10%;
+    margin-left: 5%;
     z-index: 120;
 }
 
 .seccen ul{
     list-style: none;
     margin: 0;    
-
+    
 }
 .seccen > ul > li{
     float: left;
@@ -145,7 +145,9 @@ header i{
     position: relative;
     overflow: hidden;
     padding-top: 2.5%;
-    padding-right: 7%;
+    margin-right: 10%;
+    margin-left: -12%;
+    
 } 
 
 .secrig a i{
@@ -334,9 +336,168 @@ button{
 }
 
 
+/* footer section from here  */
+
+footer{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    overflow-y: scroll;
+    
+    height: 700px;
+    background-image: url("background.png");
+    margin-bottom: 100px;
+}
+
+#logog{
+    text-decoration: none;
+    font-size: 40px;
+    position:relative;
+    top: -35px;
+    left: -22px;
+    font-weight: 800;
+}
+
+.foot-lg{
+    float: left;
+    width: 25%;
+    color: white;
+}
+
+.lgd {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+    left: 40px;
+    color: white;
+    margin:10px ;
+    padding-top: 20px;
+    
+}
+.lgd a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 220%;
+
+}
+.spc{
+    padding-left: 30px;
+}
+
+.lgd i{
+    padding-right: 10px;
+}
+
+.social{
+    padding-left: 10%;
+}
+
+.social-icon{
+    font-size: 40px;
+    margin-left: 20px;
+    overflow-wrap:break-word;
+    color: #0469eb;
+}
+
+/* help of footer section starts here */
+.help,.support,.info{
+    float: left;
+    width: 15%;
+    margin-left: 10%;
+
+    
+}
+
+
+.hlp{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    position:relative;
+    top: 40px;
+    padding-left: 40px;
+    left: -22px;
+    font-weight: 800;
+    
+}
+
+.hlplist{
+    margin-top: 82px;
+    display: inline-block;
+    position: relative;
+    left: -25px;
+}
+
+.lst{
+    display: block;
+    padding-top: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 
 
+/* last line code is from here  */
+.line{
+    border-top: solid green 1px;
+    width: 100%;
+    padding-right: 40%;
+    margin-left: -20%;
+    overflow-x : hidden ;
+    margin-top: 550px;
+}
+.line a{
+    padding-left:60%;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    /* width: 100%; */
+
+    
+}
+.copyr{
+    padding-top: 50px;
+}
+
+
+/* back to top button creation */
+
+#back2Top {
+    width: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    z-index: 999;
+    display:block;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    z-index: 1200;
+    border-radius: 90%;
+    background-color: rgb(9, 194, 226);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    opacity: 50%;
+  }
+  #back2Top:hover {
+    background-color: rgb(19, 200, 255);
+    color: rgb(255, 255, 255);
+    opacity: 80%;
+  }
+  
+/* this is to handle the screen width change */
 @media screen and (max-width:1500px) {
     .imge{
        margin-top: 10px;
@@ -350,6 +511,20 @@ button{
         overflow-x: hidden ;
         position:relative;
         
+    }
+    .seccen ul{
+        list-style: none;
+        margin-left: -60px;   
+        z-index: 12; 
         
     }
+
+    .seccen ul ul{
+        position:relative;
+        padding: 10px;
+        padding-left: 80px;
+        display: none;
+        min-width: 120px;
+    }
+    
  }
